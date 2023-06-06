@@ -1,4 +1,4 @@
-This an extensive and test plan and test frameworm against the application here : https://github.com/abhishek-pingsafe/sdet-assignment/tree/main
+This an extensive test plan and test frameworm against the application here : https://github.com/abhishek-pingsafe/sdet-assignment/tree/main
 
 Tesst plan : testPlan.md 
 
