@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "testHeadless": "npx cypress run",
-    "testHeaded": "npx cypress run",
+    "testHeaded": "npx cypress open",
     "openInMac": "open ./cypress/results/spec.html",
     "openInWin": "start ./cypress/results/spec.html",
     "test:report:macOS": "npm run testHeadless && npm run openInMac",
