@@ -1,0 +1,38 @@
+{
+    "token": {
+        "valid": "authorized-user",
+        "blank": "",
+        "null": null,
+        "invalid":"unauthorized-user"
+            },
+     "userAgent": {
+        "valid":"test",
+        "bot":"bot",
+        "containingBot":"BeforebotAfter"
+     }, 
+     "id": {
+        "alreadyCreated": "1",
+        "alreadyCreated01": "1098",
+        "alreadyCreated02": "1097",
+        "alreadyCreated03":"1096"
+            },
+     "phone": {
+        "valid": "7204789920",
+        "lessThan10Char": "987654321",
+        "moreThan10Char": "98765432101",
+        "withoutDigits":"qwertyuiop"
+            },
+     "name": {
+        "valid":"KumarSaheb",
+        "moreThan50Char":"123456789012345678901234567890123456789012345678901",
+        "withSpecialChar":"!@#$%^&*()"
+     } ,
+     "responseBody":{
+      "message" :{
+         "customerCreated":"customer created"
+      },
+      "error":{
+         "duplicateUser":"UNIQUE constraint failed: customers.id"
+      }
+     }    
+}
