@@ -3,7 +3,9 @@ This an extensive test plan and test frameworm against the application here : ht
 Tesst plan : testPlan.md 
 
 API automation tool used : Cypress
+
 Langauge : Javascript
+
 Reporting : Mochawesome
 
 Steps to run the project in local
